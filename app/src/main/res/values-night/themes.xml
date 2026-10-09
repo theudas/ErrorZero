@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.ErrorZero" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.ErrorZero.Crop" parent="Theme.AppCompat">
+        <item name="colorPrimary">#111111</item>
+        <item name="colorPrimaryDark">#111111</item>
+        <item name="colorAccent">#E9E6DF</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:statusBarColor">#111111</item>
+        <item name="android:navigationBarColor">#000000</item>
+    </style>
+</resources>
